@@ -1,0 +1,33 @@
+*{
+    margin : 0% ;
+    padding: 0%;
+   
+}
+ 
+body {
+ 
+    background-color: aqua;
+ 
+}
+ 
+ 
+header {
+ 
+background-color: brown;
+ 
+}
+ 
+main{
+    background-color: chartreuse;
+ 
+}
+ 
+nav{
+    background-color: darkblue;
+ 
+}
+ 
+footer{
+    border-color: deepskyblue;
+}
+ 
