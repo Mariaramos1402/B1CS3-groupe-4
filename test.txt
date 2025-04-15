@@ -1,2 +1,44 @@
-Ca c'est le nano test.txt 
+#  Projet Git : Brancherayane
+
+Ce projet illustre l'utilisation de Git depuis l'installation jusqu'à la gestion des branches, la configuration et l'envoi sur GitHub.
+
+---
+
+## Étapes réalisées
+
+### 1. Installation de Git
+
+Dans un terminal Linux :
+
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install git
+git --version
+
+###Création du dossier de travail
+cd Documents
+mkdir projetfinale03
+cd projetfinale03
+###Initialisation du dépôt Git
+git init
+ls -a
+###Configuration locale de Git 
+git config user.email "rayanenser@hotmail.com"
+git config user.name "Rayman12393"
+
+
+##Création et gestion de la branche brancherayane
+git branch brancherayane
+git checkout brancherayane
+git checkout -b brancherayane
+git add brancherayane
+git commit -m "fjhvsdibguos"
+git push -u origin brancherayane
+
+
+
+
+
+
+
 
