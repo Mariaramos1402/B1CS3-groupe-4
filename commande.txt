@@ -1,0 +1,27 @@
+MIKOV Théodor
+
+# on met à jour le système, on installe git et on vérifie qu’il est bien installé
+apt update && apt upgrade -y && apt install git -y && git --version
+
+# on dit à git qui on est pour pouvoir commit
+git config user.name "Mariaromas1420" && git config user.email "marriaramoss14022020@gmail.com"
+
+# on crée un dossier pour notre projet, on y va, on init git et on check que le .git est bien là
+mkdir mon-projet && cd mon-projet && git init && ls -a
+
+# on connecte le dossier local avec le dépôt distant (remplace le lien par le tien)
+git remote add origin https://github.com/Mariaromas1420/tonrepo.git
+
+# on crée un fichier, on l’ajoute et on fait un premier commit
+nano fichier.txt && git add fichier.txt && git commit -m "Premier commit"
+
+# on envoie le projet sur GitHub
+git push -u origin master
+
+# on crée une nouvelle branche et on passe dessus direct
+git checkout -b brancheteo && git push -u origin brancheteo
+
+# on revient sur master et on fusionne la branche qu’on vient de créer
+git checkout master && git merge brancheteo
+
+
