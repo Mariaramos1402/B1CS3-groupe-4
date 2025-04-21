@@ -1,3 +1,5 @@
+#  Projet réaliser par MIKOV Théodor, NSER Rayane et MEHON Samuel, attention Pereira Tiago n'a jamais était dans notre groupe comme montrer dans le tableau envoyer par mail
+
 MIKOV Théodor
 
 # on met à jour le système, on installe git et on vérifie qu’il est bien installé
